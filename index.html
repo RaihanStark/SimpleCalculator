@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <title>Kalkulator Online</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="container">
+
+            <div class="row-flex">
+                <input type="text" id="input1" placeholder="Input Number 1">
+
+                <div class="round">
+                    <input type="checkbox" id="checkbox1" />
+                    <label for="checkbox1"></label>
+                </div>
+            </div>
+
+            <div class="row-flex">
+                <input type="text" id="input2" placeholder="Input Number 2">
+
+                <div class="round">
+                    <input type="checkbox" id="checkbox2" />
+                    <label for="checkbox2"></label>
+                </div>
+            </div>
+
+            <div class="row-flex">
+                <input type="text" id="input3" placeholder="Input Number 3">
+
+                <div class="round">
+                    <input type="checkbox" id="checkbox3" />
+                    <label for="checkbox3"></label>
+                </div>
+            </div>
+
+            <div class="row-flex">
+                <div class="button-group">
+                    <button class="btn" id="plusButton">+</button>
+                    <button class="btn" id="minButton">-</button>
+                    <button class="btn" id="multiplyButton">x</button>
+                    <button class="btn" id="divideButton">/</button>
+                </div>
+            </div>
+
+            <div class="row-flex">
+                <div class="result-box">
+                    <p>Result:</p>
+
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</html>
